@@ -21,7 +21,7 @@ cd pheonix
 #
 # Phase 3: Set up build environment
 #
-lb config --binary-images iso-hybrid --mode debian --architecture amd64 --linux-flavours amd64 --distribution stretch --archive-areas "main contrib non-free" --updates true --security true --cache true --apt-recommends true --debian-installer live --debian-installer-gui false --win32-loader false --iso-application pheonixOS --iso-preparer Prharsha --iso-publisher Prharsha
+lb config --binary-images iso-hybrid --mode debian --architecture amd64 --linux-flavours amd64 --distribution stretch --archive-areas "main contrib non-free" --updates true --security true --cache true --apt-recommends true --debian-installer live --debian-installer-gui true --win32-loader false --iso-application pheonixOS --iso-preparer Prharsha --iso-publisher Prharsha
 #
 #
 # Phase 4: Install desktop and applications
